@@ -23,30 +23,30 @@
 
   <remove-project name="platform/system/bt" />
 
-  <project path="art" name="android_art" remote="common" />
+  <project path="art" name="android_art" remote="lineage" />
 
-  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="common" />
+  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="lineage" />
   <project path="external/scudo" name="android_external_scudo" remote="common" />
 
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="common" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="lineage" />
 
   <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" remote="lineage" revision="lineage-18.1-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="lineage" revision="lineage-18.1-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" remote="lineage" revision="lineage-18.1-caf-sm8150" />
 
-  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="common" revision="11.0-caf" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="lineage" revision="lineage-18.1-caf" />
 
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="common" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="common" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="lineage" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="lineage" />
 
   <project path="system/bt" name="android_system_bt" remote="common" />
 
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="common" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" />
 
-  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="common" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_commonsys-intf_display" remote="common" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="common" />
-  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="common" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="common" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="lineage" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_commonsys-intf_display" remote="lineage" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="lineage" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="lineage" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="lineage" />
 
 </manifest>
